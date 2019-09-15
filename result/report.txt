@@ -1,0 +1,31 @@
+## Result
+For inverse index method:
+
+    As you can see in result_reverse_index.txt file, the all keys (unsigned and
+    singed Vietnamese) was search in data set.
+
+    Advantage:
+
+        The complexity of this algorithm is quite low, so the time to get data from
+        each key is fast ( time ~ miro seconds).
+
+        It is easy to develop
+    Disadvantage:
+
+        I think it hard to maintaenane costs on update, delete and insert.
+
+        The result searching don't have the priority (follow this source, it sorted by the line of product_name)
+
+For BM25 method:
+
+    Using for calculate the score for the document.
+
+    It was combined with "inverse index" method to get result => sorted by the score
+
+    => The result will base on our data sets
+
+    Calculating the score of document, we must loop entire the result of "inverse index" method
+
+    => This the reason why BM25 consume many time for looping (solution: using multithreading)
+
+    The highest time of key in data test is about "397" mili second (using 10 thread)
