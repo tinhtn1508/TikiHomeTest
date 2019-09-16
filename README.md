@@ -10,6 +10,7 @@ g++ (Ubuntu 8.3.0-6ubuntu1) 8.3.0
 ### Structure
 
 Hometest
+
 |-- build
 |   |-- sources
 |   |   |--subdir.mk
@@ -55,4 +56,4 @@ v1.0.0
 
 ## Authors
 
-* **Tinh Nguyen** - *Tiki-HomeTest* - [tinhtn96](https://github.com/tinhtn96)
+* **Tinh Nguyen** - *Tiki-HomeTest* - [tinhtn1508](https://github.com/tinhtn1508)
